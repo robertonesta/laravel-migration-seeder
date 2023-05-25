@@ -21,12 +21,12 @@ class TrainsSeeder extends Seeder
             $train->company = $faker->words(3, true);
             $train->departure_station = $faker->words(3, true);
             $train->arrival_station = $faker->words(3, true);
-            $train->departure_time = $faker->time();
-            $train->arrival_time = $faker->time();
-            $train->train_code = $faker->bothify('??-########');
+            $train->departure_time = $faker->dateTime();
+            $train->arrival_time = $faker->dateTime();
+            $train->train_code = $faker->bothify('??-#######');
             $train->carriages_number = $faker->numberBetween(1, 9);
-            $train->on_time = $faker->randomElement(1, 0);
-            $train->deleted = $faker->randomElement(1, 0);
+            $train->on_time = $faker->randomElement([1, 0]);
+            $train->deleted = $faker->randomElement([1, 0]);
             $train->save();
         }
     }
