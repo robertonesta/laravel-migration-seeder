@@ -35,7 +35,7 @@
                     </div>
                     @if($train -> deleted === 1)
                     <div class="text-center position-absolute deleted">
-                    <h1 class="text-danger fw-bold">{{$train -> deleted === 1 ? "Deleted" : ""}}</h1>
+                    <h2 class="text-danger fw-bold">{{$train -> deleted === 1 ? "Deleted" : ""}}</h2>
                     </div>
                     @endif
                 </div>

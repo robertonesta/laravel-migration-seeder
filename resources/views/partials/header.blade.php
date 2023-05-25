@@ -1,3 +1,3 @@
-<header class="text-center my-2 text-danger">
-    <h1>FRECCIALENTA </h1>
+<header class="text-center text-danger">
+    <h1 class="fw-bold">FRECCIALENTA </h1>
 </header>
