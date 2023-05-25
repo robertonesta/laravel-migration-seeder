@@ -2,10 +2,14 @@
 
 h1{
     font-size: 6rem;
+    color: rgb(207, 16, 16);
 }
 .deleted{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(2.8) rotate(30deg);
     opacity: 0.87;
+    h2{
+        color: rgb(207, 16, 16);
+    }
 }
