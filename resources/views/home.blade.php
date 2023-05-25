@@ -6,7 +6,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-4">
         @foreach ($trains as $train)
         <div class="col">
-            <div class="card h-100 text-uppercase">
+            <div class="card h-100 text-uppercase shadow">
                 <div class="card-header text-center">
                     <p><strong>Train Number: <span>{{$train -> train_code}}</span></strong></p>
                 </div>
